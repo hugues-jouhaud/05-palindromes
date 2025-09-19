@@ -2,16 +2,17 @@
 
 
 def ispalindrome(p):
-
-    # votre code ici
-    
+    """Test de vérification d'un palyndrome"""
+    txtinverse = p[::-1]
+    if txtinverse == p :
+        return True
     return False
 
 #### Fonction principale
 
 
 def main():
-
+    """Test sur des mots"""
     # vos appels à la fonction secondaire ici
 
     for s in ["radar", "kayak", "level", "rotor", "civique", "deifie"]:
